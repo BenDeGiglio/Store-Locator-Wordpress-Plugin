@@ -1,0 +1,264 @@
+
+.bd-tabs li{
+	float: left;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+.bd-tabs li.active{
+	float: left;
+	background-color: #fff;
+}
+
+.bd-tab-container{
+	overflow: auto;
+    width: 96%;
+    background: #fff;
+    margin-top: -6px;
+    float: left;
+    padding: 20px;
+}
+.settings-message,.location-message{
+	display: none;
+}
+.bd-tab-2{
+	display: none;
+}
+.bd-tab-content{display: none;}
+.notice, div.error, div.updated{
+	margin: 20px 0;
+	width: 95%;
+}
+.admin-dealer-info{
+	margin: 10px 0;
+}
+.admin-dealer-info td{
+	width: 25%;
+	vertical-align: top;
+}
+
+.admin-store{
+	margin: 5px 0;
+}
+
+.admin-dealer-info td pre{
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+.admin-dealer-info p{
+	margin: 0;
+}
+.dealer-location{
+	padding: 10px;
+	height: 26px;
+    overflow: hidden;
+}
+.dealer-location:nth-child(odd){
+	background-color: #f1f1f1;
+}
+.dealer-location{
+	position: relative;
+}
+.bd-actions-container{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	display: none;
+}
+.bd-actions-container a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+.bd-actions-container a.bd-delete, .bd-remove-so-row{
+	color: #dc2525;
+	text-decoration: none;
+}
+.bd-remove-so-row{
+	display: none;
+}
+.bd-remove-so-row:hover{
+	color: #dc2525;
+}
+.so-input-wrap:hover .bd-remove-so-row {
+	display: block;
+}
+.so-input-wrap{
+	width: 607px;
+}
+.bd-remove-so-row{
+	margin-top: 5px;
+	float: right;
+}
+.bd-map-marker-info pre{
+	border: initial;
+	padding: 0;
+	margin-bottom: 10px;
+	font-family: arial,helvetica, sans-serif;
+	font-size: 12px;
+}
+.bd-right-col{
+	width: 60%;
+	float: left;
+} 
+.bd-left-col{
+	width: 40%;
+	float: left;
+}
+.bd-left-col img{
+	width: 80%;
+	margin-left: 10%;
+}
+.info-links{
+	width: 100%;
+}
+.info-links a{
+	width: 50%;
+	float: left;
+}
+.bd-map-marker-info p{
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+	margin-top: 0;
+}
+.bd-map-marker-info span{
+	width: 100%;
+	float: left;
+}
+.bd-map-marker-info a{
+	margin-top: 0px;
+	float: left;
+}
+.bd-locations-wrap pre, .bd-locations-wrap td,.bd-locations-wrap table{
+	border: initial;
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+.bd-row{
+	margin-bottom: 20px;
+	float: left;
+}
+.bd-locations-container{
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.bd-locations-container h3{
+	margin-top: 0;
+}
+.bd-locations-container h4{
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+.bd-locations-container p{
+	margin: 0;
+}
+.bd-locations-container img{width: 80%;}
+.bd-locations-container:last-child{
+	border-bottom: initial;
+}
+.bd-locations-container.wo-distance  div{
+	width: 33%;
+	float: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding: 20px 10px 10px 0;
+	box-sizing: border-box;
+}
+.bd-locations-container.distance div {
+	width: 20%;
+	float: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding: 20px 10px 10px 0;
+}
+@media (max-width: 600px) {
+.bd-locations-container.wo-distance  div{width: 50%;}
+.bd-locations-container.distance div {width: 50%;}
+}
+.bd-locations-container a{
+	width: 100%;
+	float: left;
+}
+
+.bd-add-so{
+	width: 100%;
+	float: left;
+	text-decoration: none;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.bd-zipcode-search-container,.bd-servicesoffered-container{
+	float: left;
+}
+.bd-servicesoffered-container select{
+	width: 100%;
+	padding-left: 10px;
+	border-radius: 2px;
+	height: 42px;
+	outline: none !important;
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat 99% #f7f7f7;
+	border: 1px solid #d1d1d1;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+#bd-zipcode-search-form{
+	margin-bottom: 20px;
+	float: left;
+	width: 100%;
+}
+#bd-zipcode-search-form.no-so .bd-zipcode-search-container{
+	width: 45%;
+	float: left;
+}
+#bd-zipcode-search-form.so .bd-zipcode-search-container{
+	width: 40%;
+	margin-right: 2%;
+	float: left;
+}
+.bd-servicesoffered-container{
+	float: left;
+	width: 40%;
+	margin-right: 2%;
+}
+input[type="text"].bd-zipcode-search{
+	width: 100%;
+	float: left;
+	background: #f7f7f7;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    padding: 0.625em 0.4375em;
+}
+
+input[type="submit"].bd-zicode-search-submit{
+    background: #1a1a1a;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.84375em 0.875em 0.78125em;
+    text-transform: uppercase;
+    width: 16%;
+}
+.bd-zicode-search-submit{
+	width: 10%;
+	float: left;
+}
+
+
+
+
+
+
+
